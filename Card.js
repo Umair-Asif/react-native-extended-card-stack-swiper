@@ -8,7 +8,6 @@ const Card = ({ style, children }) => (
   <View style={style} >
     {children}
   </View>);
-  console.log(children);
 
 Card.propTypes = {
   children: PropTypes.oneOfType([PropTypes.array, PropTypes.object]).isRequired,
